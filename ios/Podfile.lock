@@ -1581,7 +1581,7 @@ PODS:
     - Yoga
   - RNSha256 (1.4.10):
     - React-Core
-  - RNSVG (13.14.1):
+  - RNSVG (15.14.0):
     - React-Core
   - SocketRocket (0.7.0)
   - Yoga (0.0.0)
@@ -1900,7 +1900,7 @@ SPEC CHECKSUMS:
   RNPermissions: 4f7b81b0d457c8ec4e892cc36ef2376734a4b22c
   RNScreens: 35bb8e81aeccf111baa0ea01a54231390dbbcfd9
   RNSha256: 4d35f112e967f58273d625a19376f4eafc72bd5c
-  RNSVG: ae50dd253f44447b32d0f5a3657a97859f289891
+  RNSVG: 9628420a2aa6614e26953153b0b48af1acccda17
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
   Yoga: 4ef80d96a5534f0e01b3055f17d1e19a9fc61b63
 
