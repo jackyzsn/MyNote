@@ -232,7 +232,7 @@ export async function exportToFile(
 
                 RNFS.writeFile(fullPath, JSON.stringify(notes, null, 2), 'utf8')
                     .then(() => callback('00', fullPath))
-                    .catch(() => callback('99', ''));
+                    .catch((err) => { console.error('exportToFile write failed:', err); callback('99', ''); });
             } else {
                 callback('10', '');
             }
