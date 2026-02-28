@@ -38,10 +38,10 @@ adb -s 9885e6434b52395951 reverse tcp:8081 tcp:8081
 
 ```
 # Check avaliable emulators
-~/Android/Sdk/tools$ ./emulator -list-avds
+ ~/Library/Android/sdk/emulator$ ./emulator -list-avds
 
 # Start specific emulator
-~/Android/Sdk/tools$ ./emulator -avd Medium_Phone_API_35
+ ~/Library/Android/sdk/emulator$ ./emulator -avd Medium_Phone_API_35
 ```
 
 ## Debug

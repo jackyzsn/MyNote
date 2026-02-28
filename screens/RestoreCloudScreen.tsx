@@ -19,6 +19,7 @@ import { MynoteContext } from '../context/mynoteContext';
 import { MynoteContextType, ScreenType, BackupType } from '../@types/mynote.d';
 import { retrieveBackupsMongo, restoreToDBMongo } from '../utils/dbhelper';
 import { CircleX, CircleCheck, ArchiveRestore, Circle } from 'lucide-react-native';
+import setting from '../setting.json';
 
 const deviceWidth = Dimensions.get('window').width;
 const contentWidth = deviceWidth - theme.content_margin;
@@ -51,7 +52,7 @@ export function RestoreCloudScreen({ navigation }: RestoreCloudScreenProps) {
                         <VStack space="xs" w="80%" >
                             <ToastTitle>{t('message')}</ToastTitle>
                             <ToastDescription>
-                                {t('retrieve_failed')}
+                                `{t('retrieve_failed')}: URL: {setting.mongodb.backupURL}`
                             </ToastDescription>
                         </VStack>
                     </Toast>
